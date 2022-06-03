@@ -1,0 +1,1731 @@
+h1,h2,h3,h4,h5,h6,a,ul,li,b,p,span,div,th,td,label{
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    max-width: 1580px;
+}
+
+h3{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+}
+h5{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 900;
+}
+
+.menubar ul li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    
+}
+.nav-link{
+    color: #212121!important;
+    cursor: pointer;
+    margin-left: 2.188rem;
+}
+.nav-link:hover{
+    color: #1697B7!important;
+}
+.menubar .active .nav-link{
+    color: #1697B7!important;
+}
+
+.dropdown-menu{
+    min-width: auto!important;
+    left:auto!important;
+    right:0!important;
+}
+
+.btn-primary{
+    background-color: #1697B7;
+    padding: 10px 52px;
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-family: 'Lato',sans-serif;
+    border:none;
+    border-radius: 4px;
+    text-transform: uppercase;
+
+}
+.btn-primary:hover{
+    background-color: #30C3CD;
+}
+.banner-bg{
+    background: url('../image/hero\ bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.banner-img{
+    text-align: center;
+}
+
+.banner-coupon{
+    background-color: #fff;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;    
+}
+.banner-coupon img{
+    margin: 7px 0 7px 7px;
+ 
+}
+.banner-coupon-name{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #777777;
+}
+
+.banner-coupon-name span{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.188;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 0px;
+    color: #212121;
+}
+
+.banner-restaurent-name{
+    font-family:'Lato',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+   
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+
+    text-align: center;
+    text-transform: uppercase;
+
+color: #E8804C;
+}
+.banner-price-ratings{
+    text-align: center;
+    
+}
+.banner-price-ratings span{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+
+    text-transform: capitalize;
+    color: #212121;
+
+}
+.banner-price-ratings s{
+    font-family: 'Lato',sans-serif;
+    margin-right: 10px;
+    color: #777777;
+}
+.banner-expires{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size:0.875rem;
+    line-height: 1.063rem;
+    margin-top: 54px;
+  
+    margin-bottom: 18px;
+
+    text-transform: capitalize;
+    text-align: center;
+
+color: #30C3CD;
+}
+
+.banner-expires span{
+    font-family:'Lato',sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.063;
+    margin-top: 54px;
+   margin-left: 5px;
+
+    text-transform: capitalize;
+
+color: #30C3CD;
+}
+.banner-coupon img{
+    width: 100%;
+}
+.banner-btn-primary{
+    width: 177px;
+height: 40px;
+background: #1697B7;
+border-radius: 4px;
+color: #fff;
+border: none;
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-transform: uppercase;
+
+
+}
+.banner-button{
+    text-align: center;
+}
+
+.search-btn-primary{
+    font-style: normal;
+font-weight: bold;
+font-size: 1.125rem;
+line-height: 1.313rem;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background: #1697B7;
+border-radius: 4px;
+height: 54px;
+}
+.search-btn-primary:hover{
+    background-color: #30C3CD;
+    color: #fff;
+}
+/* carousel icon */
+
+.carousel-control-prev, .carousel-control-next{
+ color: #1697B7;
+
+ width: 30px;
+ height: 30px;
+ border-radius: 4%;
+ top: calc(50% - 25px)
+}
+.carousel-control-prev{
+    left: 2%;
+}
+.carousel-control-next{
+    right: 2%;
+}
+.carousel-control-prev:hover{
+    color: #1697B7;
+}
+.carousel-control-next:hover{
+    color: #1697B7;
+}
+/* location */
+
+.location-box{
+    border: 2px solid #1697B7;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px rgba(243, 243, 243, 0.25);
+}
+.location-box input::placeholder{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #1697B7;
+
+}
+
+/* price range slider */
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    background-color: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    border-radius: 10px;
+    color: #1697B7;
+    font-family: 'Lato',sans-serif;
+}
+.slider-text, .slider-text span{
+    color: #1697B7;
+    font-family: 'Lato',sans-serif!important;
+}
+.slider:hover{
+    opacity: 1;
+}
+.slider::-moz-range-progress{
+    height: 20px;
+    border-radius: 25px;
+    background: #1697B7;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: #1697B7;
+    cursor: pointer;
+   
+}
+.slider::-moz-range-thumb{
+    width: 25px;
+    height: 25px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 4px solid #1697B7;
+}
+
+/* price range slider end */
+
+.coupon-card{
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding:10px;
+    text-align: center;
+}
+.coupon-card:hover{
+   background-color: #F3F3F3;
+}
+.coupon-img img{
+    width: 100%;
+    margin-bottom: 18px;
+}
+.coupon-name{
+    font-size: .75rem;
+    line-height: 0.875rem;
+    font-weight: 500;
+    color: #777777;
+}
+.coupon-name span{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212121;
+}
+.show-btn{
+    text-transform: capitalize;
+    color: #1697B7;
+    font-family: 'Lato',sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.restaurent-name{
+    font-size: 14px;
+    line-height: 1rem;
+    font-weight: 600;
+    color: #E8804C;
+    margin: 5px 0;
+}
+.coupon-details .price-ratings{
+   text-align: center;
+}
+.price-ratings i{
+    color: #FFB400;
+}
+
+.price-ratings .price{
+    color: #212121;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lato',sans-serif;
+}
+.price-ratings .price s{
+    color: #777777;
+    margin-right: 0.5rem;
+}
+.expires{
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lato',sans-serif;
+    color: #30C3CD;
+    margin-bottom: 10px;
+}
+.expires span{
+    font-family: 'Lato',sans-serif;
+    color: #1697B7;
+    margin-left: 3px;
+}
+
+
+.subscribe-section{
+  
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 75px 0;
+}
+.subscribe-section h4{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.subscribe-section button{
+    margin-top: 20px;
+    padding: 6px 30px!important;
+}
+.input-field-bar{
+    margin-top: 20px;
+    width: 500px;
+}
+.input-field-bar input{
+    font-family: 'Lato',sans-serif;
+    width: 100%!important;
+    background-color: #F3F3F3;
+}
+.subscribe-section i{
+    font-size: 50px;
+    color:  #E8804C;
+    
+}
+
+
+.footer{
+    
+    height: 100%;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: #212121;
+}
+.footer-line{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 60px;
+}
+.footer-element{
+    
+    padding: 76px 44px 32px;
+    color: #fff;
+    font-family: 'Lato,sans-sarif';
+    
+}
+
+.footer-title{
+    margin-bottom: 30px;
+    line-height: 3.75rem;
+    
+}
+.copyright-text{
+    margin-top: 30px;
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.site-title{
+    
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+    font-weight: 700;
+}
+.footer-list{
+    display: block;
+}
+.payment{
+   text-align: right;
+}
+
+
+/* Get Coupon */
+.coupon-banner-bg{
+    background-image: url('../image/get-coupon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+    padding: 150px 0;
+}
+
+.get-coupon-banner-text{
+    color: #fff;
+   
+}
+.get-coupon-banner-text h3{
+    
+    font-weight: 900;
+    
+}
+.get-coupon-banner-text i{
+    color: #FFB400;
+}
+.get-coupon-name{
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.get-coupon-banner-text p{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5rem;
+        
+}
+.expire-card{
+    background: #fff;
+    padding: 38px 44px;
+    position: relative;
+}
+.expire-card h3{
+    font-family: 'Lato',sans-serif;
+    font-weight: 500;
+   
+}
+.expire-card h5{
+    font-family: 'Lato',sans-serif;
+    padding-left: 58px;
+    color: #E8804C;
+    font-weight: bold;
+}
+.expire-card i{
+    color: #E8804C;
+    padding-right: 22px;
+}
+.expire-card .save{
+    margin-top: 37px;
+    margin-bottom: 9px;
+    font-size: 1.75rem;
+    line-height: 1.375rem;
+    font-weight: 600;
+}
+.expire-card .save span{
+    font-family: 'Lato',sans-serif;
+}
+.expire-card .save s{
+    
+    color: #777777;
+}
+.percentage-text p{
+    font-family: 'Lato',sans-serif;
+    color: #E8804C;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 35px;
+ 
+
+}
+.percentage-text p span{
+    color: #212121;
+    font-family: 'Lato',sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.expire-card button{
+    margin: 33px 0;
+}
+.expire-card .wishlist a{
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #212121;
+}
+
+.discount{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #E8804C;
+    top: -20px;
+    right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+}
+.coupon-title{
+    text-align: center;
+    margin: 100px 0 75px
+}
+/* Get Coupon  End*/
+
+/*How It Works*/
+    .how-it-work-section{
+        margin:100px 0;  
+        position: relative;
+    }
+    .how-it-work-title h3{
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        text-align: center;
+        color: #212121!important;
+        margin-bottom: 100px;
+    }
+    .how-it-work-section h3{
+        color: #1697B7;
+    }
+
+    .work-element{
+        margin-bottom: 130px;
+    }
+
+
+    .faq-section{
+        width: 80%;
+        margin: 0 auto 100px;
+    }
+    .faq-section .section-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .faq-section .section-title span{
+        font-family: 'Lato',sans-serif;
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        font-weight: 700;
+        margin-left: 32px;
+    }
+
+    .faq-section .card{
+        border:none!important;
+    }
+    .faq-section .card-header{
+        border: 2px solid #1697B7!important;
+        border-radius: 4px!important;
+        margin-bottom: 3px!important;
+        background-color: #fff!important;
+       
+    }
+    .faq-section .card-header button{
+        font-family: 'Lato',sans-serif!important;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.25rem;
+        color: #212121!important;
+    }
+
+    .roadmap{
+        position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 180px;
+    }
+
+/*How It Works End*/
+
+
+/*registration starts*/
+
+.register{
+background: #FFFFFF;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+
+
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 0.875rem;
+line-height: 1.063rem;
+color: #8C8A8A;
+margin-top: 100px;
+margin-bottom: 82px;
+padding-top: 44px;
+padding-bottom: 62px;
+
+
+}
+form#register{
+    margin: 43px;
+    
+}
+.register h4{
+    /* margin: 44px 0 10px 43px; */
+    /* padding: 44px 0 0 43px; */
+    font-family:'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+
+    text-transform: capitalize;
+
+    color: #212121;
+}
+.register p{
+   
+    margin-bottom: 47px;
+    font-family:'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+    text-align: left;
+
+
+
+color: #E8804C;
+
+}
+.register-head-text{
+    padding-left: 43px;
+}
+.register-head-text h4{
+    padding-top: 44px;
+}
+.form-control{
+    border: none!important;
+}
+.input-box{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #C7C3C3;
+
+    border-radius: 4px;
+}
+.input-text{
+    font-family:'Lato', sans-serif;
+    color: #F3F3F3;
+}
+
+input#submit{
+    width: 100%;
+height: 47px;
+background: #1697B7;
+border-radius: 4px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+border: none;
+
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.register .input-group-text{
+   background:transparent!important;
+   border:none!important;
+   color: #9A9898;
+   font-family: 'Lato', sans-serif;;
+   }
+   
+ 
+
+.reg-image{
+    width: 224.41px;
+    height: 207.41px;
+    
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.reg-title{
+
+    font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 1.75rem;
+line-height: 2.063rem;
+
+
+
+color: #E8804C;
+}
+.reg-desc{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 1.5rem;
+color: #212121;
+}
+.reg-link{
+    margin-top: 25px;
+    text-align: center;
+}
+.reg-link P{
+    text-align: center;
+}
+.sign-link{
+    color: #1697B7;
+}
+    
+.check{
+    color: #E8804C;
+}
+
+.descr{
+    margin-left: 21px;
+}
+
+
+.login-img{
+    text-align: center;
+}
+.bground{
+    background-color: #F3F3F3;;
+}
+
+/*registration end*/
+
+/* user-management */
+
+.side-nav{
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-top: 60px;
+    position: fixed;
+    width: 270px;
+    background: #1697B7;
+    height: 100vh;
+    }
+.side-nav a{
+    color: #FFFFFF;
+    font-family:'Lato',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 26px;
+
+}
+.side-nav .nav-link{
+    color: #FFFFFF!important;
+}
+.side-nav .active{
+        width: 270px;
+        background: #19A9CD;      
+} 
+    
+.side-nav i{
+    margin-right: 10px;
+}
+
+.content-div{
+    margin-top: 60px;
+    margin-left: 300px;
+    width: 82vw;
+}
+
+
+
+.navbar-light .navbar-brand{
+    width: 300px;
+}
+.header{
+    display: flex;
+    width: 100vw !important;
+}
+.header h4{
+    font-family:'Lato',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.25rem;
+line-height: 1.5rem;
+
+
+
+color: #212121;
+
+}
+.header #navbarSupportedContent{
+    justify-content:end!important;
+    }
+.table-head{
+    padding-bottom: 23px;
+}
+.search-box #input-box{
+    border: 1px solid #BDC3C6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 38px;
+}
+.main-div{
+    background:#F3F3F3;
+    min-height: 100vh;
+}
+.white-box{
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    box-sizing: border-box;
+    margin-top: 32px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 24px;
+}
+.white-box .input-group-text{
+    background:transparent!important;
+    border:none!important;
+    color: #9A9898;
+    font-family: 'Lato', sans-serif;;
+    }
+.white-box .form-inline{
+    align-items: flex-start;
+}
+.search-btn{
+    background: #1697B7;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+
+    font-family:'Lato',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-left: 14px;
+
+}
+
+.btn-invite-primary{
+    background: #1697B7;
+border-radius: 4px;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-transform: uppercase;
+width: 159px;
+height: 40px;
+
+color: #FFFFFF;
+
+}
+.header-section{
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    z-index:999;
+}
+
+.content-div .nav-tabs .nav-item .nav-link{
+    font-family: 'Lato',sans-serif;
+    font-size: 1rem;
+    color: #212121!important;
+}
+.content-div .nav-tabs .nav-item .nav-link.active{
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom:  2px solid #1697B7;
+    font-weight: 900;
+    color: #1697B7!important;
+}
+
+.table .icon{
+    color:#1697B7;
+}
+.table th{
+    font-family:'Lato', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 0.75rem;
+line-height: 0.875rem;
+text-transform: uppercase;
+letter-spacing: 0.02em;
+color: #212121;
+border-bottom: none;
+border-top: none;
+}
+.table td{
+    font-family:'Lato', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 0.875rem;
+line-height: 1.063rem;
+/* identical to box height */
+
+
+color: #212121;
+}
+.icons{
+    display:flex;
+    justify-content:space-between;
+}
+.page-link{
+    font-family:'Lato', sans-serif;
+    color:#1697B7!important;
+  }
+.page-item.active .page-link {
+  
+    background: #1697B7!important;
+    color: #fff!important;
+    border-color: #1697B7!important;
+  }
+.orderby{
+    font-family:'Lato', sans-serif;
+    background-color: transparent;
+    border: 1px solid #BDC3C6;
+box-sizing: border-box;
+border-radius: 4px;
+color: #6C757D;
+width: 204px;
+height: 36px;
+}
+.nav-tabs .nav-link {
+    margin-left:0
+}
+/* user-management end */
+
+ /* Add coupon */
+
+ .add-box{
+     background-color: #fff;
+     padding: 18px 20px 20px 20px;
+     margin-top: 36px;
+     margin-bottom: 24px;
+ }
+ .add-box h4{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  
+    
+    text-transform: capitalize;
+    
+    color: #E8804C;
+ }
+.add-box input{
+    border: 1px solid #C8C8C8!important;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.add-box textarea{
+    border: 1px solid #C8C8C8!important;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 295px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+    resize: none;
+    
+    text-transform: capitalize;
+    
+    color: #807B7B;
+}
+.add-box label{
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 0.875rem;
+line-height: 1.063rem;
+
+
+text-transform: capitalize;
+
+color: #212121;
+
+}
+.add-box select{
+    border: 1px solid #C8C8C8!important;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.terms-condition div{
+    background: #EFEFEF;
+    border-radius: 4px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.terms-condition textarea{
+    height: 250px;
+    background: #F9F9F9;
+color: #807B7B;
+
+}
+.image-box h4{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 0.875rem;
+line-height: 1.25rem;
+
+
+text-align: center;
+
+color: #212121;
+padding: 0 20px;
+
+}
+.image-box a{
+    color: #E8804C;
+}
+.thumb-image{
+    border: 2px dashed #888889;
+    border-radius: 4px;
+    width: 220px;
+    height: 129px;
+    margin-top: 36px;
+    display: flex;
+align-items: center;
+
+}
+.banner-image{
+    border: 2px dashed #888889;
+    border-radius: 4px;
+    width: 220px;
+    height: 240px;
+    margin-top: 20px;
+    display: flex;
+align-items: center;
+}
+.preview-coupon{
+    display: inline;
+}
+.preview-coupon .card{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+border-radius: 4px;
+width: 545px;
+height: 204px;
+}
+.preview-coupon h4{
+    margin-top: 31px;
+    margin-bottom: 31px;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.125rem;
+line-height: 1.375rem;
+
+text-transform: capitalize;
+
+color: #E8804C;
+}
+.preview-coupon img{
+    margin-top: 21px;
+    margin-left: 21px;
+}
+.preview-coupon .right-side p{
+    font-family: 'Lato',sans-serif;
+    margin-left: 21px;
+    margin-top: 15px!important;
+   
+}
+.preview-coupon .card{
+    
+    line-height: 0rem!important;
+}
+.preview-coupon .card .card-text{
+    font-weight: 600;
+font-size: 1rem;
+line-height: 1.188rem;
+text-transform: capitalize;
+
+color: #212121;
+
+}
+.preview-coupon .card .details{
+    text-transform: capitalize;
+    font-size: 0.75rem;
+    color: #30C3CD;
+
+}
+.preview-coupon .card button{
+    margin-left: 150px;
+}
+.preview-coupon .card .card-title{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+
+text-transform: capitalize;
+
+color: #E8804C;
+}
+.never-expire{
+    display: flex;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 38px;
+    padding: 0 10px;
+    background-color: #F3F3F3;
+}
+.never-expire input{
+    border: none!important;
+}
+.never-expire label{
+    color: #979EA0;
+    font-size: 11px;
+    line-height: 33px;
+    padding-left: 10px;
+}
+.grey-input{
+    width: 100%;
+}
+/* Add coupon end */
+
+/* Dashboard starts */
+
+.summary-section{
+    background-color: #FFFFFF;
+    padding: 32px;
+    border: 1px solid #CFCFCF;
+box-sizing: border-box;
+border-radius: 4px;
+margin-top: 32px;
+}
+.summary-card{
+    background: rgba(232, 128, 76, 0.15);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+   
+}
+.summary-card i{
+    color:  #E8804C;
+    height: 20px;
+    height: 26px;
+}
+.summary-card h4{
+    
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 1.813rem;
+
+
+color: #E8804C;
+}
+.summary-card p{
+  
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 0.563rem;
+line-height: 0.688rem;
+
+text-transform: uppercase;
+
+color: #212121;
+
+}
+.summary-text{
+    margin-left: 18px;
+}
+.graph-section{
+   margin-top: 32px;
+   background: #fff;
+   border: 1px solid #CFCFCF;
+box-sizing: border-box;
+border-radius: 4px;
+height: 400px;
+padding: 0 20px;
+}
+.graph-section img{
+    width: 100%;
+    height: 398px;
+}
+
+.table-section{
+    margin-top: 32px;
+    background: #fff;
+    border: 1px solid #CFCFCF;
+ box-sizing: border-box;
+ border-radius: 4px;
+ padding: 34px 31px 34px 37px;
+}
+
+.active-coupon{
+    background-color: rgba(22, 151, 183, 0.15);
+}
+.active-coupon h4{
+    color: #1697B7;
+}
+.active-coupon i{
+    color: #1697B7;
+}
+.total-customer{
+    background: rgba(243, 173, 120, 0.15);
+}
+.total-customer h4{
+    color: #F3AD78;
+}
+.total-customer i{
+    color: #F3AD78;
+}
+.expired-customer{
+    background: rgba(48, 195, 205, 0.15);
+}
+.expired-customer h4{
+    color: #30C3CD;
+}
+.expired-customer i{
+    color: #30C3CD;
+}
+/* Dashboard end */
+
+
+/* print coupon starts */
+
+.print-form{
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    width: 430px;
+    padding: 30px 0;
+    font-family: 'Lato',sans-serif;
+}
+.print-form h4{
+    padding-left: 20px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212121;
+    padding-bottom: 20px;
+}
+.print-form i{
+    padding-left: 5px;
+    color: #212121;
+}
+.print-form p{
+    padding-right: 20px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding-bottom: 20px;
+    }
+.print-form form{
+    padding: 0 20px;
+    }
+.print-form select{
+    background: #F3F3F3;
+    border-radius: 4px;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #212121;
+
+}
+.print-form .bg-white{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+
+color: #212121;
+
+}
+.print-form label{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+}
+.print-head{
+    display: flex;
+   
+}
+.print-bg{
+    background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+padding: 57px 0 10px;
+}
+.print-bg h4{
+    padding-bottom: 36px;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #726D6D;
+text-align: center;
+}
+.print-coupon-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 20px 20px;
+}
+.print-coupon-info h3{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 20px;
+text-transform: capitalize;
+
+color: #212121;
+
+}
+.print-image{
+    background-image: url('../image/get-coupon.png')!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 84px 70px;
+}
+.border-div{
+    background: #fff;
+    border: 1px solid #E4E4E4;
+box-sizing: border-box;
+padding: 16px;
+margin: 0 37px;
+}
+.print-coupon-card{
+    background: #FFFFFF;
+    text-align: center;
+    padding: 21px 39px;
+}
+.print-coupon-name{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: lowercase;
+    color: #777777;
+    padding-bottom: 10px;
+
+}
+.print-coupon-name span{
+  
+font-weight: 600;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #212121;
+
+}
+.print-restaurent-name{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #E8804C;
+padding-bottom: 15px;
+
+}
+.print-coupon-card .price-ratings{
+    padding-bottom: 15px;
+}
+.print-btn{
+    display:flex;
+    position: absolute;
+    bottom:30px;
+    right:0; 
+}
+.btn-cancel{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-transform: capitalize;
+
+color: #E8804C;
+
+}
+/* print coupon end */
+
+/* customer page starts */
+
+.my-coupon{
+    background: #F3F3F3;
+    padding: 60px 0;
+}
+.search-sidebar{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 18px 22px 40px;
+}
+.referral input{
+    border: 1px solid #8F8F8F!important;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.referral .tab-content p{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #E8804C;
+}
+.referral .nav{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.referral .nav .nav-link{
+    background-color: #1697B7!important;
+    border-radius: 50%!important;
+    color: #fff!important;
+    margin-left: 0;
+}
+.referral h3{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+}
+.full-width{
+    width: 100%;
+}
+.full-width .hr{
+    border: 2px solid #1697B7;
+}
+.top-offers{
+    background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+padding: 12px 22px;
+
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+.second-row{
+    display: flex;
+    justify-content: space-between;
+}
+.share-referral{
+    background: #F3F3F3;
+    padding: 60px;
+}
+.share-referral input{
+    border: 1px solid #1697B7!important;
+box-sizing: border-box;
+border-radius: 4px;
+width: 640px;
+height: 60px;
+}
+.share-background{
+    background: #F3F3F3;
+}
+.my-coupon .coupon-card{
+    background-color: #fff;
+}
+.my-coupon .coupon-card:hover{
+    background: #F3F3F3;
+}
+.share-icon{
+    background: #FFFFFF;
+    border: 1px solid #1697B7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #1697B7;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 27px;
+    padding-left: 20px;
+}
+
+.my-coupon h3{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height:2.688rem;
+    color: #212121;
+}
+.coupon-history h3{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.688rem;
+    color: #212121;
+}
+.search-sidebar h4{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+    text-transform: capitalize;
+    color: #212121;
+}
+.top-offers p{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+    text-transform: capitalize;
+    color: #212121;
+}
+.share-referral h4{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #212121;
+
+}
+.share-referral p{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #767676;
+
+}
+
+
+.print-section{
+    display: none;
+}
+
+/* customer page end */
+
+
+
+
+@media (max-width: 1024px){
+    .banner-coupon{
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 992px){
+    .roadmap{
+        display:none;
+    }
+    .banner-coupon-name{   
+        margin-bottom: auto;     
+    }
+    .banner-restaurent-name{
+        margin-bottom: auto;  
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .banner-expires span{
+        margin-bottom: auto;  
+    }
+    .banner-expires{
+        margin-top: auto;
+    }
+    .banner-price-ratings span{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+}
+@media (max-width: 768px){
+    
+    .banner-bg{
+        height: auto;
+        padding: 20px 0;
+    }
+    .banner-coupon{
+        margin-bottom: 20px;
+    }
+    .side-text p{
+        text-align: left;
+    }
+
+}
+@media (max-width: 568px){
+    
+   .work-element h3,p{
+       text-align: center;
+   }
+
+}
+@media (max-width: 480px){
+    
+    .navbar-light .navbar-brand {
+        width: auto;
+    }
+    .get-coupon-banner-text h3{
+        text-align: center;
+    }
+ 
+ }
+
+
+ /* Print */
+ @media print {
+    .container,.container-flex{
+        display: none;
+    }
+    .print-section{
+        display: block;
+    }
+    .print-bg{
+        padding:20px;
+    }
+ }
+
+

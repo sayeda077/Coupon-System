@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container-flex">
+      <div class="header-section">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" routerLink="/public/landing-page">
+                <img src="image/dummy logo.svg" alt="">
+            </a>
+           
+            
+            
+          
+            <div class="header">
+              
+              <div>              
+                <h4>User management</h4>
+              </div>
+             
+              <div class="collapse navbar-collapse menubar" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Admin
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Logout</a>                                            
+                  </li>       
+                </ul>
+              </div>
+            
+        
+          </nav>
+        </div>
+    </div>
+
+<!-- Main div -->
+   
+  <div class="container-fluid main-div">
+    <div class="row">
+<!-- Side navigation -->
+      
+  <div class="side-nav">
+ 
+     <nav id="sidebar">
+      <ul class="list-unstyled">
+
+        <li class="nav-item active">
+          <a href="#" data-toggle="collapse" class="nav-link"><i class="fa fa-users" aria-hidden="true"></i>
+            User management</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i>
+            Dashboard</a>
+        </li>
+
+      </ul>
+     </nav>
+
+  </div>
+  
+  <!-- Side navigation end-->
+
+
+  <div class="content-div ">
+   <ul class="nav nav-tabs">
+     <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#vendor">Vendor</a></li>
+     <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#customer">Customer</a></li>
+   </ul>
+
+   <div class="tab-content">
+     <div id="vendor" class="tab-pane active">
+
+      <div class="white-box">
+        <div class="container-flex table-head">
+        <div class="row justify-content-between">
+   
+      
+        
+        <form class="form-inline">
+         
+        <div class="input-group mb-3 input-box">
+          <input type="search" class="form-control input-text mr-sm-2" placeholder="Enter name or email" aria-label="Search">
+ 
+          <div class="input-group-append">
+            <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i>
+
+            </span>
+          </div>
+        </div>
+        <button class="btn search-btn my-2 my-sm-0" type="submit">Search</button>
+   
+      </form>
+ 
+      
+      <div class="invite-btn">
+        <button class="btn btn-invite-primary" type="button"><i class="fa fa-plus" aria-hidden="true"></i>Invite User</button>
+      </div>
+      
+      
+    </div>  
+    </div>
+
+    <!-- table -->
+
+      <table class="table table-hover" style="width: 100%">
+       <thead>
+         <tr>
+           <th>S.NO</th>
+           <th>Username</th>
+           <th>Email</th>
+           <th>Restaurant Name</th>
+           <th></th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>1</td>
+           <td>Jason Doe</td>
+           <td>jason.howie@gmail.com</td>
+           <td>Chillox Dhanmondi</td>
+           <td class ="icons">
+            <i class="fa fa-pencil-square-o icon" aria-hidden="true"></i>
+            <i class="fa fa-trash icon" aria-hidden="true"></i>
+          </td>
+         </tr>
+         <tr>
+          <td>2</td>
+          <td>Jason Doe</td>
+          <td>jason.howie@gmail.com</td>
+          <td>Chillox Dhanmondi</td>
+          <td class ="icons">
+            <i class="fa fa-pencil-square-o icon" aria-hidden="true"></i>
+            <i class="fa fa-trash icon" aria-hidden="true"></i>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Jason Doe</td>
+          <td>jason.howie@gmail.com</td>
+          <td>Chillox Dhanmondi</td>
+          <td class ="icons">
+            <i class="fa fa-pencil-square-o icon" aria-hidden="true"></i>
+            <i class="fa fa-trash icon" aria-hidden="true"></i>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Jason Doe</td>
+          <td>jason.howie@gmail.com</td>
+          <td>Chillox Dhanmondi</td>
+          <td class ="icons">
+            <i class="fa fa-pencil-square-o icon" aria-hidden="true"></i>
+            <i class="fa fa-trash icon" aria-hidden="true"></i>
+          </td>
+        </tr>
+
+       </tbody>
+       
+      </table>
+    </div>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item ">
+          <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item "><a class="page-link" href="#">1</a></li>
+        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+     </div>
+
+     <!-- another tab -->
+     <div id="customer" class="tab-pane fade">
+    
+
+        <div class="white-box">
+          <div class="container-flex table-head">
+          <div class="row justify-content-between">
+     
+        
+          
+          <form class="form-inline">
+           
+          <div class="input-group mb-3 input-box">
+            <input type="search" class="form-control input-text mr-sm-2" placeholder="Enter name or email" aria-label="Search">
+   
+            <div class="input-group-append">
+              <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i>
+  
+              </span>
+            </div>
+          </div>
+          <button class="btn search-btn my-2 my-sm-0" type="submit">Search</button>
+     
+        </form>
+   
+         <div >
+          <label for="orderby">Order by</label>
+          <select id="orderby" name="orderby" form="orderby" class="orderby">
+            <option value="recent">Most Recent</option>
+            <option value="test">...</option>
+            <option value="test">...</option>
+            <option value="test">...</option>
+          </select>
+      </div>
+        
+      </div>  
+      </div>
+  
+      <!-- table -->
+  
+        <table class="table table-hover" style="width: 100%">
+         <thead>
+           <tr>
+             <th>S.NO</th>
+             <th>Username</th>
+             <th>Email</th>
+             <th>No of Coupons availed</th>
+             <th></th>
+             
+  
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>1</td>
+             <td>Jason Doe</td>
+             <td>jason.howie@gmail.com</td>
+             <td>5</td>
+             <td class ="icons">
+               <i class="fa fa-pencil-square-o icon" aria-hidden="true"></i>
+               <i class="fa fa-trash icon" aria-hidden="true"></i>
+             </td>
+             
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>Jason Doe</td>
+            <td>jason.howie@gmail.com</td>
+            <td>2</td>
+            <td class ="icons">
+              <i class="fa fa-pencil-square-o icon" aria-hidden="true"></i>
+              <i class="fa fa-trash icon" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Jason Doe</td>
+            <td>jason.howie@gmail.com</td>
+            <td>10</td>
+            <td class ="icons">
+              <i class="fa fa-pencil-square-o icon" aria-hidden="true"></i>
+              <i class="fa fa-trash icon" aria-hidden="true"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Jason Doe</td>
+            <td>jason.howie@gmail.com</td>
+            <td>7</td>
+            <td class ="icons">
+              <i class="fa fa-pencil-square-o icon" aria-hidden="true"></i>
+              <i class="fa fa-trash icon" aria-hidden="true"></i>
+            </td>
+          </tr>
+  
+         </tbody>
+         
+        </table>
+        
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item ">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item "><a class="page-link" href="#">1</a></li>
+          <li class="page-item active"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+      
+
+     
+   </div>
+  </div>
+</div>
+</div>
+</div>
+ 
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+      
+
+</body>
+</html>
